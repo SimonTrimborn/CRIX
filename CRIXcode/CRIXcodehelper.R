@@ -74,6 +74,10 @@ for (i in 1:(index_periods)){
     }
     }
     
+    if (dim(last_index_period_market)[2] <= index_const){
+      return(NULL)
+    }
+    
     last_line = if (i == 1){
         begin_line_func
     } else {

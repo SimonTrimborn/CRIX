@@ -1,22 +1,25 @@
 
-Name of Quantlet : CRIXmembers
+Name of Quantlet : EFCRIXindex
 
 Published in :  'CRIX or evaluating blockchain based currencies'
 
-Description : Gives a matrix which shows the number of constituents of the indices in the periods. The data were calculated with CRIXcode.R.
+Description : Gives a plot which shows the performance of the cryptocurrency index EFCRIX. The data were calculated with CRIXcode.R.
 
 Keywords : 
  - CRIX
+ - ECRIX
+ - EFCRIX
  - index
  - cryptocurrency
  - crypto
+ - plot
 
 See also : 
+ - CRIXindex
  - ECRIXindex
- - EFCRIXindex
  - CRIXfamdiff
  - CRIXfamdiffloss
- - FDAXloss
+ - DAXCRIXloss
  - CRIXhnoptions
  - CRIXoutmarket
  - CRIXoutmarketTERES
@@ -26,6 +29,6 @@ Author : Simon Trimborn
 
 Submitted :  Mon, May 30 2016 by Simon Trimborn
 
-Datafile : CRIXaic.RData, ECRIXaic.RData, EFCRIXaic.RData
+Datafile : efcrix.RData
 
-Example : Matrix with the members in the indices.
+Example : Plot with the EFCRIX.
